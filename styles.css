@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(https://s1.1zoom.me/big3/112/Lamborghini_Gran_Turismo_Roads_Veneno_Back_view_567887_3840x2160.jpg);
     background-size: cover;
 }
@@ -7,29 +10,30 @@ h1{
     background-color: #1abc9c;
     border-radius: 10px;
     padding: 10px;
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 400px;
+    text-align: center;
 }
 
 form{
     display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 label{
     font-weight: 1000;
     background-color: #1abc9c;
     font-size: 20px;
-}
-
-button{
-    width: 200px;
+    display: flex;
+    flex-direction: row; 
 }
 
 div img{
     padding: 10px;
     margin: 10px;
     width: 400px;
+    text-align: center;
 }
 
 form div{
@@ -37,4 +41,11 @@ form div{
     background-color: #16a085;
     border-radius: 10px;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+button{
+    width: 200px;
 }
